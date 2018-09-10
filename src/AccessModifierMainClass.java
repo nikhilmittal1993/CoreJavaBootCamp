@@ -1,6 +1,6 @@
 import com.AccessModifierExample;
 
-public class AcccessModifierMainClass {
+public class AccessModifierMainClass {
     public static void main(String[] args) {
         AccessModifierExample accessModifierExample = new AccessModifierExample();
         System.out.println(accessModifierExample.b);
