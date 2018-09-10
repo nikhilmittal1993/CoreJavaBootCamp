@@ -3,6 +3,10 @@ public class ControlFlowStatement {
         int a  = 5;
         if(a == 5) {
             System.out.println("Here");
+        }
+
+        if(a>5) {
+            System.out.println("Here");
         } else {
             System.out.println("There");
         }
@@ -27,6 +31,11 @@ public class ControlFlowStatement {
         for(int i=0;i<5;i++) {
             System.out.println(i);
             continue;
+        }
+
+        int[] arr = new int[] {1,2,3,4,5};
+        for(int b:arr) {
+            System.out.println(b);
         }
 
         while (a<10) {
