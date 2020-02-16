@@ -13,5 +13,11 @@ public class StringExample {
         stringBuilder.append("abc");
         System.out.println(stringBuilder.hashCode());
         System.out.println(stringBuilder.toString());
+
+        StringBuffer s = new StringBuffer("abc");
+        s.append("xyz");
+        System.out.println(s); // returns abcxyz
+        s.append(1);
+        System.out.println(s); // returns zbcxyz1
     }
 }
